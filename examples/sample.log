@@ -1,0 +1,5 @@
+[INFO] 2026-10-20 10:00:00 - Starting pipeline execution...
+[INFO] 2026-10-20 10:00:01 - Loading input sequences from /data/input/reads.fastq
+[WARNING] 2026-10-20 10:00:05 - Low quality score detected in 12% of reads. Proceeding with caution.
+[ERROR] 2026-10-20 10:01:10 - Tool 'aligner_tool' exited with code 1: Reference genome index not found at /data/reference/gen.idx
+[INFO] 2026-10-20 10:01:11 - Pipeline aborted due to fatal error in step aligner_tool.

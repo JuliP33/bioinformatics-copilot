@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+
+# Local environment and secrets
+.env
+.copilot_history.json
+.copilot_backups/
+
+# Generated databases, logs and reports
+*.db
+*.sqlite
+*.sqlite3
+*.duckdb
+workflow_audit.log
+outputs/
+outputs_audit/
+mis_reportes_avanzados/
+my_custom_outputs/
+
+# Downloaded genomic data
+data/
+bin/
+
+# Temporary and backup files
+*.save
+*.bak
